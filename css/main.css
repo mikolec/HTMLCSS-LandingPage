@@ -8,6 +8,8 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
+/******************* Utility classes ********************/
+
 /* Container */
 
 .container {
@@ -67,4 +69,75 @@ section {
 .text-primary {
   font-size: 16px;
   color: #364147;
+}
+
+/******************* Header & Navigation ********************/
+
+/* Header */
+.header-nav { border-bottom: 1px solid #a0a0a0;}
+
+/* Brand  */
+.brand { 
+  width: 180px;
+  height: 85px;
+  margin-left: -15px;
+  margin-right: 60px;
+}
+
+/* Logo  */
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Search Box  */
+.search-box {
+  width: 330px;
+  height: 30px;
+  padding: 6px 12px;
+  border: 1px solid #a0a0a0;
+}
+/* Search Button  */
+.search-button {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #a0a0a0;
+}
+
+/* Navigation List  */
+.nav-list {
+  width: 575px;
+  padding: 0;
+  margin-top: 10px;
+}
+/* Navigation List Links  */
+.nav-list li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* Profile  */
+.profile { margin-left: auto;}
+.account { 
+  text-align: right;
+  padding: 15px;
+  color: #364147;
+  font-size: 18px;
+}
+.account a {
+  font-size: 14px;
+}
+/* Profile Picture  */
+.profile-pic {
+  width: 60px;
+  height: 60px;
+}
+.profile-pic img {
+  border-radius: 100px;
+  max-width: 100%;
 }
