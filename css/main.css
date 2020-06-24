@@ -40,9 +40,9 @@ section {
   border-radius: 3px;
   line-height: 1.4;
 }
-.btn-default, .btn-primary { color: white;}
-.btn-default { background-color: #faa541;}
-.btn-primary { background-color:#364147;}
+
+.btn-default { color: #fff; background-color: #faa541;}
+.btn-primary { color: #fff; background-color:#364147;}
 
 /* Form Controls */
 
@@ -56,13 +56,12 @@ section {
 
 /* Typography */
 
-.text-light, .text-secondary {
-  font-size: 30px;
-}
 .text-light {
+  font-size: 30px;
   color: #a0a0a0
 }
 .text-secondary {
+  font-size: 30px;
   color: #faa541;
 }
 .text-primary {
